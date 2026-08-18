@@ -85,8 +85,8 @@ export class mainpage {
         await this.selectdropdown();
         await this.uploadsinglefile();
      
-        // const reloadpage = await this.page.reload();
-        // await reloadpage;
+        const reloadpage = await this.page.reload();
+        await reloadpage;
     }
 
 
